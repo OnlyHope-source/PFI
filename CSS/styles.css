@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+    background-color: #252525;
+    color: #FFFFFF;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.imagesMOI {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+
+header div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: rgb(32, 222, 83);
+}
+
+nav a:hover {
+    text-decoration: solid;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul ul {
+    margin-left: 20px;
+}
+
+.grille-horaire {
+    display: grid;
+    grid-template-columns: 1fr repeat(5, 1fr);
+    gap: 5px;
+    margin: 20px;
+    text-align: center;
+}
+
+.entete {
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+
+.logo {
+    border-radius: 5px;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.grilleProffession {
+    width: 100%;
+    border-collapse: collapse;
+}
+.grilleProffession tr:nth-child(even) { 
+    background-color: black; 
+    color: white;
+}
+.grilleProffession tr:nth-child(odd) { 
+    background-color: white; 
+    color: black;
+}
+.grilleProffession td { 
+    border: 5px solid rgb(32, 222, 83);; 
+    padding: 5px; 
+}
+body {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+}
+.horaire {
+    display: grid;
+    grid-template-columns: 100px repeat(5, 1fr);
+    gap: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cellule {
+    border: 1px solid rgb(32, 222, 83);
+    padding: 5px;
+    text-align: center;
+}
+.entete {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+.concepimage{
+   max-width: 250px;
+   max-height: 250px;
+}
